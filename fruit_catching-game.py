@@ -10,15 +10,15 @@ FPS=60
 FONT=pygame.font.SysFont("comicsans",20)
 pygame.display.set_caption("Fruit Catcher")
 #Load assets
-BASKET=pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\basket.jpg")
-CLOUD=pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\cloud.jpg")
+BASKET=pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\basket.jpg") #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\basket.jpg" to wherever your "basket.jpg" is located
+CLOUD=pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\cloud.jpg") #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\basket.jpg" to wherever your "basket.jpg" is located
 FRUIT_TYPES=[
-    ("apple",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\apple.jpg"),1),
-    ("banana",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\banana.jpg"),3),
-    ("lemon",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\lemon.jpg"),-1),
-    ("grape",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\grape.jpg"),5),
-    ("strawberry",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\strawberry.jpg"),7),
-    ("watermelon",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\watermelon.jpg"),10)
+    ("apple",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\apple.jpg"),1), #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\apple.jpg" to wherever your "apple.jpg" is located
+    ("banana",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\banana.jpg"),3), #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\banana.jpg" to wherever your "banana.jpg" is located
+    ("lemon",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\lemon.jpg"),-1), #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\lemon.jpg" to wherever your "lemon.jpg" is located
+    ("grape",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\grape.jpg"),5), #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\grape.jpg" to wherever your "grape.jpg" is located
+    ("strawberry",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\strawberry.jpg"),7), #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\strawberry.jpg" to wherever your "strawberry.jpg" is located
+    ("watermelon",pygame.image.load(r"C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\watermelon.jpg"),10) #Change "C:\Users\shaji\OneDrive\Desktop\Afri\Python\PyGame\watermelon.jpg" to wherever your "watermelon.jpg" is located
 ]
 #Rarity weights
 RARITY_WEIGHTS={
