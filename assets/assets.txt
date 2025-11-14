@@ -1,0 +1,2 @@
+# Ignore!
+Dummy file for images
