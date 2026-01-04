@@ -1,6 +1,6 @@
 # Fruit Catching Game
 
-![Type](https://img.shields.io/badge/Type-Technical_Case--Study-7f8c8d) 
+![Type](https://img.shields.io/badge/Type-Workshop_Project-7f8c8d) 
 ![Status](https://img.shields.io/badge/Status-Archived-grey)
 
 This PyGame-based application simulates a fruit-catching challenge with dynamic elements like falling objects and player controls. It includes custom-designed UI assets for visuals, ensuring an engaging and responsive gaming experience.
